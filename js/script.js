@@ -51,7 +51,7 @@ function printQuote() {
   let randomQuote = getRandomQuote();
 
   // Output string with quote and quote's source in it
-  let outputHTML = "<p class='source'>" + randomQuote.quote + "</p>" + "<p class='source'>" + randomQuote.source;
+  let outputHTML = "<p class='quote'>" + randomQuote.quote + "</p>" + "<p class='source'>" + randomQuote.source;
 
   // Check to see if the quote contains citation property
   // If it does => add the citation to the output string
